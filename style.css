@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,700;1,400&display=swap');
+
+body {
+    font-family: font-family: 'Arimo', sans-serif;
+    margin: 2rem;
+
+}
+
+#translateButton {
+    align-content: space-around;
+    color: blueviolet;
+    float: center;
+    padding: 0.5rem;
+}
+
+:root {
+    --primary-color: turquoise;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding-bottom: 1rem;
+}
+
+textarea {
+    width: 60%;
+    height: 20vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+}
